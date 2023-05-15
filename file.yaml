@@ -1,0 +1,16 @@
+file_type: csv
+dataset_name: file
+file_name: Customers
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - CustomerID
+    - Gender
+    - Age
+    - AnnualIncome
+    - SpendingScore1100
+    - Profession
+    - WorkExperience
+    - FamilySize
